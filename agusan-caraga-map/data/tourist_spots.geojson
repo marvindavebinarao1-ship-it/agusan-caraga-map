@@ -1,0 +1,117 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "Tagnote Falls",
+        "category": "Waterfalls & Rivers",
+        "core": true,
+        "province": "Agusan del Norte",
+        "description": "A two-tiered waterfall tucked in Barangay San Antonio, Remedios T. Romualdez — cold, clear pools and a laid-back cottage area about 45 minutes from Butuan City.",
+        "entrance_fee": "Reasonable entrance fee (~₱30–50); cottage rental extra",
+        "best_season": "Dry season, Nov–May (fuller flow, easier footing on the stone steps)",
+        "family_friendly": "The steps down to the base pool are a little worn, so hold little hands on the way down; the pools themselves are calm enough for kids to wade and swim once you're there."
+      },
+      "geometry": { "type": "Point", "coordinates": [125.6482985, 9.0496645] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "Mt. Carmel View Park",
+        "category": "Mountains & Nature",
+        "core": true,
+        "province": "Agusan del Norte",
+        "description": "A breezy hilltop park in Carmen, right on the boundary of Agusan del Norte and Misamis Oriental, with sweeping views toward the coast and Camiguin on a clear day.",
+        "entrance_fee": "Free",
+        "best_season": "Year-round; clearest views in the dry season, Nov–May",
+        "family_friendly": "No swimming or strenuous trekking involved — just a scenic stop to stretch, take photos, and let kids run around; there's a videoke machine if your family likes to sing, and a police/military checkpoint nearby keeps the area safe."
+      },
+      "geometry": { "type": "Point", "coordinates": [125.2372627, 8.9978091] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "Bood Promontory Eco Park",
+        "category": "Heritage & Culture",
+        "core": true,
+        "province": "Agusan del Norte",
+        "description": "A hilltop eco-historical park overlooking the Masao River and Butuan Bay, believed by locals to be tied to one of the earliest Catholic masses held in Mindanao.",
+        "entrance_fee": "Free",
+        "best_season": "Year-round; go in the morning for cooler, quieter walking weather",
+        "family_friendly": "Easy, flat strolling paths and open lawns make this a low-effort stop with older kids who can appreciate the history; note that restroom facilities have been reported as poorly maintained, so plan accordingly."
+      },
+      "geometry": { "type": "Point", "coordinates": [125.4927435, 8.951919] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "Magpupungko Rock Pools",
+        "category": "Beaches & Islands",
+        "core": false,
+        "province": "Surigao del Norte",
+        "description": "Siargao's famous tidal rock pools in Pilar — clear, emerald pools that only appear at low tide, ringed by dramatic rock formations.",
+        "entrance_fee": "≈₱60 per head",
+        "best_season": "Dry season, Mar–May, and only around low tide — check the local tide schedule before you go",
+        "family_friendly": "The rocks get sharp and slippery, so water shoes are a must for kids; a roped-off shallow area makes it safer for younger swimmers, but keep an eye on tide times since the pools disappear at high tide."
+      },
+      "geometry": { "type": "Point", "coordinates": [126.1207588, 9.8766561] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "Bega Falls",
+        "category": "Waterfalls & Rivers",
+        "core": false,
+        "province": "Agusan del Sur",
+        "description": "A four-tiered waterfall in an ecological park near Prosperidad, widely considered the most popular falls in Agusan del Sur — each tier has its own character, with Falls 3 the biggest.",
+        "entrance_fee": "≈₱70 per person",
+        "best_season": "Dry season, Nov–May (still flows year-round, but paths are easier when dry)",
+        "family_friendly": "There are a lot of stairs between tiers, so it suits families who can handle a bit of a hike; life jackets are available to rent for less confident swimmers, and cottages are available for a rest afterward."
+      },
+      "geometry": { "type": "Point", "coordinates": [125.9758281, 8.6999625] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "Cagwait White Beach",
+        "category": "Beaches & Islands",
+        "core": false,
+        "province": "Surigao del Sur",
+        "description": "A wide, soft white-sand beach in Cagwait facing the sunrise, with local stores and eateries just steps from the shore.",
+        "entrance_fee": "Free; cottage rental fees may apply",
+        "best_season": "Dry season, Mar–May for the calmest water",
+        "family_friendly": "The wide, gently sloping sand is easy for young kids to play on, and food stalls nearby mean you won't have to pack a full picnic; waves can pick up at times, so keep smaller swimmers close to shore."
+      },
+      "geometry": { "type": "Point", "coordinates": [126.3093545, 8.9191578] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "Hagakhak Rock Formation",
+        "category": "Mountains & Nature",
+        "core": false,
+        "province": "Dinagat Islands",
+        "description": "Dramatic, wave-carved limestone cliffs off Basilisa, reachable by a short boat ride — one of Dinagat's most photographed natural landmarks.",
+        "entrance_fee": "Free (boat transport costs extra, shared across your group)",
+        "best_season": "Dry season, Mar–May, when seas are calmest for the boat crossing",
+        "family_friendly": "Swimming isn't allowed here due to strong currents, so treat it as a scenic photo stop rather than a swim spot — genuinely striking for kids who like dramatic scenery, but keep them back from the water's edge."
+      },
+      "geometry": { "type": "Point", "coordinates": [125.471229, 10.0800135] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "San Nicolas de Tolentino Cathedral",
+        "category": "Heritage & Culture",
+        "core": false,
+        "province": "Surigao del Sur",
+        "description": "The Roman Catholic cathedral at the heart of Tandag City, seat of the Diocese of Tandag and a long-standing landmark of Surigao del Sur's Spanish-era religious heritage.",
+        "entrance_fee": "Free",
+        "best_season": "Year-round; check ahead if you'd like to time a visit around Mass",
+        "family_friendly": "A quick, easy stop right in the city center — good for a short heritage break between longer drives; dress modestly and keep noise down if a service is in progress."
+      },
+      "geometry": { "type": "Point", "coordinates": [126.1975524, 9.0791699] }
+    }
+  ]
+}

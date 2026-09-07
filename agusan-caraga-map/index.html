@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Discover the Heart of Caraga Region</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<button id="sidebar-toggle" aria-label="Toggle panel">☰ Spots</button>
+
+<div id="app">
+
+  <aside id="sidebar">
+    <div class="brand-banner">
+      <div class="eyebrow">DISCOVER THE UNEXPECTED • CARAGA REGION EDITION <span class="dot-sep">•</span> THE JOURNEY BEGINS!</div>
+      <h1>Discover the<br/>Heart of Caraga Region</h1>
+      <p class="tagline">Discover scenic destinations, cultural landmarks, and hidden gems across Agusan del Norte and the wider Caraga Region all in one interactive map. &amp; GeoJSON x Leftlet.</p>
+    </div>
+
+    <div class="progress-block">
+      <div class="progress-label">
+        <span id="visited-count">0</span> of <span id="visited-total">8</span> Spots Visited
+      </div>
+      <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+    </div>
+
+    <div class="control-block">
+      <label class="field-label" for="search-input">Query Location</label>
+      <input type="text" id="search-input" placeholder="Search destinations…" />
+
+      <label class="field-label" for="ecosystem-select">Ecosystem</label>
+      <select id="ecosystem-select">
+        <option value="">All Ecosystems</option>
+        <option value="Beaches & Islands">Beaches &amp; Islands</option>
+        <option value="Waterfalls & Rivers">Waterfalls &amp; Rivers</option>
+        <option value="Mountains & Nature">Mountains &amp; Nature</option>
+        <option value="Heritage & Culture">Heritage &amp; Culture</option>
+      </select>
+
+      <div id="results-count"></div>
+    </div>
+
+    <ul id="spot-list"></ul>
+
+    <div class="route-card">
+      <div class="route-eyebrow">1-DAY LOOP <span class="dot-sep">•</span> AGUSAN DEL NORTE CORE</div>
+      <label class="route-title-row">
+        <input type="checkbox" id="route-toggle" checked />
+        <span>Show / Hide suggested route</span>
+      </label>
+      <p class="route-stops">Mt. Carmel View Park → Tagnote Falls → Bood Promontory Eco Park</p>
+    </div>
+
+    <div class="control-block toggles">
+      <label class="toggle-row">
+        <input type="checkbox" id="choropleth-toggle" />
+        Color provinces by Spot count
+      </label>
+    </div>
+
+    <div class="legend" id="legend">
+      <div class="field-label">Legend</div>
+    </div>
+  </aside>
+
+  <main id="map">
+    <div id="map-loading">
+      <div class="spinner"></div>
+      <span>Loading Caraga…</span>
+    </div>
+    <button id="reset-view">↺ Reset view</button>
+  </main>
+
+  <section id="detail-panel" class="hidden">
+    <button id="detail-close" aria-label="Close">✕</button>
+    <div class="detail-hero" id="detail-hero">
+      <span class="detail-hero-icon" id="detail-hero-icon"></span>
+    </div>
+    <div class="detail-body">
+      <div class="detail-top-row">
+        <span class="cat-tag" id="detail-cat"></span>
+        <label class="visited-toggle">
+          <input type="checkbox" id="detail-visited" />
+          <span>Visited</span>
+        </label>
+      </div>
+      <h2 id="detail-name"></h2>
+      <p class="detail-province" id="detail-province"></p>
+      <p class="detail-desc" id="detail-desc"></p>
+
+      <div class="info-box">
+        <div class="info-box-label">Family Strategy</div>
+        <p id="detail-family"></p>
+      </div>
+
+      <div class="fact-grid">
+        <div class="fact"><span class="fact-label">Entrance fee</span><span id="detail-fee"></span></div>
+        <div class="fact"><span class="fact-label">Best season</span><span id="detail-season"></span></div>
+      </div>
+
+      <div id="weather-widget" class="weather-widget">
+        <span class="weather-icon" id="weather-icon">…</span>
+        <span class="weather-temp" id="weather-temp">Loading weather…</span>
+      </div>
+
+      <div class="detail-actions">
+        <button id="btn-directions" class="btn btn-primary">Directions</button>
+        <button id="btn-share" class="btn">Share</button>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

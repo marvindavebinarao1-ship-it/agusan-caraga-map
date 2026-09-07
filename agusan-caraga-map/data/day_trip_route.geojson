@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_name": "Agusan del Norte Core Loop",
+        "description": "Mt. Carmel View Park → Tagnote Falls → Bood Promontory Eco Park — a one-day loop through Agusan del Norte's core stops."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [125.2372627, 8.9978091],
+          [125.6482985, 9.0496645],
+          [125.4927435, 8.951919]
+        ]
+      }
+    }
+  ]
+}
