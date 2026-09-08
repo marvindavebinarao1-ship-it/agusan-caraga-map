@@ -1,6 +1,7 @@
-# Hilltop to High Tide — An Agusan del Norte Weekend
+Discover the
+Heart of Caraga Region
 
-An interactive web map (Leaflet.js + GeoJSON) covering the full Caraga Region, anchored around three "core" stops in Agusan del Norte plus five "bonus" stops spread across the region's other four provinces.
+Discover scenic destinations, cultural landmarks, and hidden gems across Agusan del Norte and the wider Caraga Region all in one interactive map. & GeoJSON x Leftlet.
 
 **Live demo:** https://marvindavebinarao1-ship-it.github.io/agusan-caraga-map/
 
