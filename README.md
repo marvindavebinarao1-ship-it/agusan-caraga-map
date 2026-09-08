@@ -2,13 +2,7 @@
 
 An interactive web map (Leaflet.js + GeoJSON) covering the full Caraga Region, anchored around three "core" stops in Agusan del Norte plus five "bonus" stops spread across the region's other four provinces.
 
-**Live demo:** [ADD YOUR DEPLOYED URL HERE]
-
-## Group
-
-- Group name: [ADD GROUP NAME]
-- Members: [ADD ALL MEMBER NAMES]
-- Submitted by: [ADD REPRESENTATIVE NAME]
+**Live demo:** https://marvindavebinarao1-ship-it.github.io/agusan-caraga-map/
 
 ## Features
 
@@ -43,18 +37,6 @@ An interactive web map (Leaflet.js + GeoJSON) covering the full Caraga Region, a
 │   └── day_trip_route.geojson
 └── README.md
 ```
-
-## Running locally
-
-```
-python3 -m http.server 8000
-```
-
-Then open `http://localhost:8000`. Opening `index.html` directly via `file://` will block the `fetch()` calls for the GeoJSON data, so use a local server.
-
-## Deploying
-
-Any static host works — GitHub Pages, Netlify, or Vercel. Push this folder as-is.
 
 ## Known issues / notes
 
